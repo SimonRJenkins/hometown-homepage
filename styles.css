@@ -9,110 +9,109 @@ DARK BLUE: #1D3557
 */
 
 body {
-    margin: 0;
-    text-align: center;
-}
-
-img {
-    width: 100px;
+  margin: 0;
+  text-align: center;
 }
 
 .hero {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    background: url(images/malmo.webp);
-    background-size: cover;
-    width: 700px;
-    height: 550px; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: url(images/malmo.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 100%;
+  height: auto;
+  min-height: 500px;
+  max-height: 100vh;
 }
 
 .hero-text {
-    color: #FFFFFF;
-background-color: #1D3557;
-border-radius: 10px;
-width: 180px;
-height: 42px;
-left: 247px;
-top: 119px;
+  color: #ffffff;
+  background-color: #1d3557;
+  border-radius: 10px;
+  width: 180px;
+  height: 42px;
+  left: 247px;
+  top: 119px;
 }
 
 .hero-subtext {
-    color: #FFFFFF;
-    background-color: #457B9D;
-    border-radius: 10px;
-    width: 411px;
-    height: 60px;
-    left: 154px;
-    top: 172px;
+  color: #ffffff;
+  background-color: #457b9d;
+  border-radius: 10px;
+  width: 411px;
+  height: 60px;
+  left: 154px;
+  top: 172px;
 }
 
 .activities {
-    padding-top: 20px;
-    background-color: #F1FAEE;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    }
-    
-    
-.activities-header {
-    color: #1D3557;
-        background-color: #F1FAEE;
-        padding-bottom: 20px;
-}    
+  padding-top: 20px;
+  background-color: #f1faee;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-right: 10px;
+  padding-left: 10px;
+}
 
-#sc, #em, #ma {
-    display: flex;
-    justify-content: space-around;
-    padding-bottom: 20px;
-align-content: center;
-   border-radius: 50%;
-   height: 50%;
-   margin: auto;
+.activities-header {
+  color: #1d3557;
+  padding-bottom: 20px;
+}
+
+#sc,
+#em,
+#ma {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 20px;
+  align-content: center;
+  border-radius: 50%;
+  margin: auto;
+  width: 150px;
+  height: 150px;
 }
 
 .activities-section {
-    display: flex;
-    flex-direction: roe;
-    justify-content: space-between;
-    color: #1D3557;
-    padding-bottom: 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: #1d3557;
+  padding-bottom: 25px;
 }
 
-
 .outer-guide {
-    padding-top: 35px;
-    padding-bottom: 35px;
+  padding-top: 35px;
+  padding-bottom: 35px;
 }
 
 .guide {
-    width: 400px;
-    height: 190px;
-    margin: auto;
-    background-color: #A8DADC;
-    display: flex;
-    justify-content: space-around;
-    border-radius: 15px;
-    border-bottom: 5px solid #1D3557;
+  width: 400px;
+  height: 190px;
+  margin: auto;
+  background-color: #a8dadc;
+  display: flex;
+  justify-content: space-around;
+  border-radius: 15px;
+  border-bottom: 5px solid #1d3557;
 }
 
 .guide-image {
-    padding-right: 20px;
-    padding-left: 20px;
-    padding-top: 10px;
-    border-radius: 25%;
-    height: 150px;
+  padding: 10px;
+  border-radius: 25%;
+  height: 150px;
+  width: 80px;
 }
 
-.guide-text p, h3, h5 {
-    color: #1D3557;
+.guide-text p,
+h3,
+h5 {
+  color: #1d3557;
 }
 
 p {
-        font-style: italic;
+  font-style: italic;
 }
-
-
-
