@@ -8,18 +8,19 @@ body {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  background: url(images/malmo.webp);
+  background-image: url(images/malmo.webp);
+  background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100% 100%;
+  background-size: auto;
   max-width: 100%;
-  height: auto;
   min-height: 500px;
   max-height: 100vh;
 }
 
 .hero-text {
   color: #ffffff;
-  background-color: #1d3557;
+  background-color: #457b9d;
   border-radius: 10px;
   width: 180px;
   height: 42px;
@@ -29,7 +30,7 @@ body {
 
 .hero-subtext {
   color: #ffffff;
-  background-color: #457b9d;
+  background-color: #1d3557;
   border-radius: 10px;
   width: 411px;
   height: 60px;
@@ -37,14 +38,21 @@ body {
   top: 172px;
 }
 
-.activities {
-  padding-top: 20px;
+.activities-container {
+  display: flex;
+  justify-content: center;
   background-color: #f1faee;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.activities {
+  padding: 20px 10px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding-right: 10px;
-  padding-left: 10px;
+  align-items: center;
 }
 
 .activities-header {
@@ -55,14 +63,17 @@ body {
 #sc,
 #em,
 #ma {
-  display: flex;
-  justify-content: space-between;
-  padding-bottom: 20px;
-  align-content: center;
   border-radius: 50%;
-  margin: auto;
   width: 150px;
   height: 150px;
+  margin-right: 20px;
+}
+
+.activities-section > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 10px;
 }
 
 .activities-section {
@@ -70,11 +81,11 @@ body {
   flex-direction: row;
   justify-content: space-between;
   color: #1d3557;
+  align-items: center;
 }
 
 .outer-guide {
-  padding-top: 35px;
-  padding-bottom: 35px;
+  padding: 35px 0;
 }
 
 .guide {
@@ -96,8 +107,8 @@ body {
 }
 
 .guide-text p,
-h3,
-h5 {
+.guide-text h3,
+.guide-text h5 {
   color: #1d3557;
 }
 
